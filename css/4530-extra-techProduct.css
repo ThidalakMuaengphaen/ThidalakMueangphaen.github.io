@@ -1,0 +1,52 @@
+nav {
+    color: white;
+    background-color: rgb(26, 26, 60);
+    padding: 10px;
+}
+
+.heading {
+    text-align: center;
+    background-color: rgb(113, 173, 247);
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
+#buy {
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+.cards {
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td ,th {
+    width: 10px;
+    height: 10px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(26, 26, 60);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.specific {
+    background-color: rgb(180, 204, 219);
+    padding: 5%;
+}

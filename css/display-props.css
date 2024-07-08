@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+}
+
+.block-container, .inline-container {
+    border: 1px solid black;
+    padding: 10px 5px 10px 5px;
+    background-color: rgb(247, 240, 230);
+}
+
+.block {
+    display: block;
+    background-color: rgb(133, 232, 189);
+    padding: 10px;
+}
+
+.inline {
+    display: inline;
+    background-color: rgb(158, 202, 235);
+    padding: 5px;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid black;
+    background-color: rgb(247, 240, 230);
+}
+
+.grow1 , .grow2 {
+    flex-grow: 1;
+    background-color: rgb(179, 143, 213);
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.grow3 {
+    flex-grow: 2;
+    background-color: rgb(203, 141, 141);
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.flex-grow {
+    background-color: rgb(129, 154, 212);
+    padding: 20px;
+}
+
+
+.shrink1 , .shrink2{
+    background-color: rgb(177, 183, 115);
+    flex-shrink: 1;
+    padding: 5px;
+    margin-right: 5px;
+    width: 300px;
+}
+
+.shrink3 {
+    background-color: rgb(142, 223, 228);
+    flex-shrink: 2;
+    padding: 5px;
+    margin-right: 5px;
+    width: 300px;
+}

@@ -1,0 +1,19 @@
+nav {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    
+}
+
+#home {
+    background-color: green;
+}
+
+a {
+    list-style-type: none ;
+    padding: 10px ;
+    margin: 0px ;
+}
+a:hover, a:active {
+    background-color: #7fd38f ;
+}
