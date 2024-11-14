@@ -1,0 +1,9 @@
+users.db
+users.sqbpro
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel

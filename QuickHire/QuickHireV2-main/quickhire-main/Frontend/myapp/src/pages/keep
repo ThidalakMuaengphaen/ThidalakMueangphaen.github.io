@@ -1,0 +1,132 @@
+<!-- {/* // <div className="grid grid-rows-1 h-screen ">
+    //   <div className="flex flex-col md:flex-row place-items-center  justify-center gap-20 bg-gradient-to-br from-green-600 to-blue-400s">
+    //     <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 hover:bg-green-500 transition-all duration-700">
+    //       <div className="md:flex md:flex-col-reverse text-2xl mx-2">
+    //         <div className="border-2 rounded-full text-center py-3 px-6 bg-cyan-900 text-white text-2xl md:text-3xl underline" onClick={toggleComponent}>
+    //           {" "}
+    //           {showNewComponent ? <Login/> : null}
+    //           d
+    //           {/* <Link to="/Login" className="flex justify-center items-center">
+    //             หางานที่รู้ใจ
+    //           </Link> */}
+    {/* //         </div> */}
+
+   {/* <div className="text-xl text-center py-5 md:text-3xl md:flex md:flex-col-reverse">
+    หากคุณกำลังมองหางาน Part time <span className="text-cyan-900 ">Click</span>
+    </div>
+    </div>
+  </div> */}
+
+{/*
+   <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 hover:bg-blue-300 transition-all duration-700 ">
+    <div className="text-2xl mx-2 ">
+    <div className="border-2 rounded-full py-3 px-6 bg-yellow-500 text-white text-2xl md:text-3xl underline text-center ">
+    <Link to="/LoginShop" className="flex justify-center items-center">
+                หาใจที่รักงาน
+    </Link>
+          </div>
+             <div className="text-xl text-center py-5 md:text-3xl md:flex md:flex-col">
+              หากคุณกำลังมองหาเพื่อนร่วมงาน <span className="text-yellow-500">Click</span>
+            </div>
+          </div>
+     </div>
+        {/* <Link to={"/Home"}>
+    //       <div className="justify-center">
+    //         <span className="text-lg text-center ">{AiFillHome} Back to Homepage</span>
+    //       </div>
+    //     </Link> */}
+       </div> /*}
+    // </div>
+
+    // <div className="grid h-screen place-items-center bg-gradient-to-br from-green-600 to-blue-400 ">
+    //   <div className="rounded-2xl min-w-fit flex-col bg-white md:px-6 py-6 shadow-xl hover:bg-blue-300 transition-all duration-700 mt-auto">
+    //     <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+    //       <div className="md:flex md:flex-col-reverse text-2xl mx-2">
+    //         <div className="border-2 rounded-full text-center py-3 px-6 bg-cyan-900 text-white text-2xl md:text-5xl underline">หางานที่รู้ใจ</div>
+
+    //         {/* <Link to="/Login" className="flex justify-center items-center">
+    //           <div className="border-2 rounded-full text-center py-3 px-6 bg-cyan-900 text-white text-2xl md:text-5xl underline">หางานที่รู้ใจ</div>
+    //         </Link> */}
+    //         <div className="text-xl text-center py-5 md:text-3xl md:flex md:flex-col-reverse">
+    //           หากคุณกำลังมองหางาน Part time <span className="text-cyan-900 ">Click</span>
+    //         </div>
+    //       </div>
+
+    //       <div className="text-2xl mx-2 ">
+    //         <Link to="/LoginShop" className="flex justify-center items-center">
+    //           <div className="border-2 rounded-full py-3 px-6 bg-yellow-500 text-white text-2xl md:text-5xl underline text-center">หาใจที่รักงาน</div>
+    //         </Link>
+    //         <div className="text-xl text-center py-5 md:text-3xl md:flex md:flex-col">
+    //           หากคุณกำลังมองหาเพื่อนร่วมงาน <span className="text-yellow-500">Click</span>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    //   <div className="pt-10">
+    //     <Link to={"/Home"}>
+    //       <div className="flex justify-center">
+    //         <AiFillHome className="mt-1 mx-5" /> <span className="text-lg text-center ">{AiFillHome} Back to Homepage</span>
+    //       </div>
+    //     </Link>
+    //   </div>
+    // </div> */}
+
+
+
+
+
+
+
+
+
+
+   ;  2
+   <div className="flex min-h-screen  items-center justify-center text-white">
+      <form className="flex flex-col bg-cyan-600  px-6 py-6 shadow-md rounded-[15px] " onSubmit={onFinish}>
+        <h1 className="flex justify-center text-3xl pt-2 mb-8">
+          สำหรับ<span className="text-yellow-500">ผู้สมัครงาน</span>
+        </h1>
+        {/* <div className="mb-8 flex justify-center">
+          <Link to="/Home">
+            <img className="w-60  mx-auto md:mx-36 hover:rotate-12 hover:scale-125 duration-300" src={logo} alt="Logo" />
+          </Link>
+        </div> */}
+        <div className="flex flex-col text-sm ">
+          <div className="mx-auto relative my-4">
+            <input id="usernameEmail" className="block mb-5 p-3 focus:outline-none focus:ring-0 border-0 border-b-2 border-gray-300 appearance-none bg-transparent text-black" type="text" placeholder="อีเมล์" value={email} onChange={(e) => setEmail(e.target.value)} />
+            <label htmlFor="usernameEmail" className="absolute text-sm duration-300 transform -translate scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-focus:scale-75 peer-focus:-translate-y-6 ">
+              Email
+            </label>
+          </div>
+
+          <div className=" mx-auto relative my-4">
+            <input
+              id="password"
+              className="block mb-5 p-3 focus:outline-none focus:ring-0 border border-r-0 border-l-0 border-t-0 border-b-2 border-b-white appearance-none tracking-wide bg-transparent text-black"
+              type={eyeopen === false ? "password" : "text"} // Use curly braces
+              placeholder="รหัสผ่าน"
+              value={password.password}
+              onChange={handlePasswordChange("password")}
+            />
+            <div className="pt-2 text-right text-yellow-500 text-sm hover:text-red-600 transition-all duration-300 ">ลืมรหัสผ่าน ?</div>
+            {/* <div className=" text-2xl absolute top-1 right-1 text-white mt-2">{eyeopen === false ? <AiFillEye onClick={toggle} /> : <AiFillEyeInvisible onClick={toggle} />}</div> */}
+          </div>
+          <label htmlFor="password" className="absolute text-sm duration-300 transform -translate scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-focus:scale-75 peer-focus:-translate-y-6 ">
+            Password
+          </label>
+          <button className="mt-5 w-full p-2 bg-white text-xl rounded-full underline text-orange-700  duration-300 font-semiboldbold" type="submit">
+            เข้าสู่ระบบ
+          </button>
+          {/* <Link to="/LoginShop">
+            <button className="mt-5 w-full p-6 text-2xl font-medium bg-yellow-500 text-cyan-950 rounded-[4px] hover:bg-orange-300 duration-300" type="submit">
+              สำหรับร้านค้า 🏪
+            </button>
+          </Link> */}
+          <div className="mt-5 flex text-sm text-white text-center justify-center">
+            <Link to="/Register">
+              ยังไม่มีบัญชี ? <span className="text-yellow-500">สมัครเลย !</span>
+            </Link>
+          </div>
+        </div>
+      </form>
+    </div> -->
